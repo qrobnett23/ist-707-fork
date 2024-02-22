@@ -13,7 +13,7 @@ There are four critical elements to consider when building an ML project:
 1. [Stakeholder analysis](#stakeholder-analysis) - who cares?
 2. [Objective specification](#objective-specification) - what are you trying to do for your stakeholders?
 3. [Data identification](#data-identification) - where are you going to get your data, and is it any good?
-4. [Modelling methods](#modelling-methods) - what kind of approach will you use to achieve your objectives?
+4. [Modeling methods](#modeling-methods) - what kind of approach will you use to achieve your objectives?
 
 Each of these items are elaborated below.
 
@@ -23,7 +23,7 @@ Each of these items are elaborated below.
 
 __The Power / Interest Grid__
 
-![alt text](image.png)
+![alt text](assets/image.png)
 
 The power / interest matrix (also referred to as Mendelow's matrix[^1]) groups stakeholders along the dimensions of interest and influence.  This is a useful starting point for thinking about stakeholders. The different groups are:
 
@@ -39,7 +39,7 @@ One of the drawbacks of the power / interest matrix is that attention to power m
 
 __The Salience Model__
 
-![alt text](image-1.png)
+![alt text](assets/image-1.png)
 
 The Theory of Stakeholder Identification and Salience[^2] addresses the above issues with the concept of _salience_. Salience is a function of three attributes: power, legitimacy, and urgency. This framework is particularly useful for understanding not just who the stakeholders are but also why their claims might be considered important.  The following offers more detail on each aspect of this framework.
 
@@ -69,7 +69,7 @@ In its original formulation, the authors of this framework defined seven types o
 
 __Personas__
 
-![alt text](image-2.png)
+![alt text](assets/image-2.png)
 
 Ultimately, stakeholders provide you with a set of needs that you will use to guide the development of your project. One powerful tool (used widely in UX and Interaction Design) is through the development of _personas_.  Personas are fictional characters created based on research to represent the different user types that might use a service, product, site, or brand in a similar way. Developing personas usually involves gathering data from user research and then synthesizing it into character profiles that represent key segments of your audience. 
 
@@ -151,11 +151,11 @@ An ML project cannot proceed without access to a sufficient amount of appropriat
 
 - **Transparency and Documentation**: The availability of detailed documentation describing the data collection methods, data processing steps, and any assumptions or limitations is essential for assessing the data's suitability for your project.
 
-### Modelling Methods
+### Modeling Methods
 
-While libraries like SciKit Learn provide many different models and tools for assembling them, evaluating their performance, and tuning parameter, the modelling approach taken for any given project involves a variety of high level decisions that inform the use of these tools. Rarely is it a simple question of SVM vs. Random Forest vs. Deep Learner. The modelling method is your overall approach, including many different sub-problems that you should strive to anticipate.
+While libraries like SciKit Learn provide many different models and tools for assembling them, evaluating their performance, and tuning parameter, the modeling approach taken for any given project involves a variety of high level decisions that inform the use of these tools. Rarely is it a simple question of SVM vs. Random Forest vs. Deep Learner. The modeling method is your overall approach, including many different sub-problems that you should strive to anticipate.
 
-The process of developing a modelling method is similar to the ML process you are familiar with already, but each of the steps taken are typically more involved than what you encounter with toy problems.
+The process of developing a modeling method is similar to the ML process you are familiar with already, but each of the steps taken are typically more involved than what you encounter with toy problems.
 
 * **Data Quality and Preparation** In many cases data preparation will include a bit of sleuthing to figure out what the data is about, and enrichment by combining multiple datasets.  After this, you might need to perform multiple transformations - pivoting categorical columns to create new features, discretizing continuous ranges, turning unstructured data into structured data, dimensionality reduction, clustering, and feature creation.
 
